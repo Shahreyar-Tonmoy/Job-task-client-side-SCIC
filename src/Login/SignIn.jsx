@@ -61,7 +61,7 @@ const SignIn = () => {
 
         SignInWithGoogle()
             .then(result => {
-                console.log(result.user)
+                // console.log(result.user)
                 if (result.user) {
                     swal("Good job!", "You are sign in with google!", "success");
 
