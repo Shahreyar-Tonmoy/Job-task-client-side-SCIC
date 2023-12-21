@@ -52,7 +52,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar -p-4 ">
+            <div className="navbar lg:px-8  ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -154,7 +154,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <Link to={"/"}><img className="w-32" src="" alt="" /></Link>
+                    <Link to={"/"}><img className="w-12 mt-1" src="https://i.ibb.co/Brc6x47/task-circle-management-project-management-task-management-scope-project-manager-computer-software-sc.png" alt="" /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="ml-auto  mr-8 hidden items-center gap-2 lg:flex">
