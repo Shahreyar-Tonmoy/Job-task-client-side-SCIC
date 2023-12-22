@@ -168,49 +168,26 @@ const Navbar = () => {
 
                         <li className="block p-1 font-sans text-lg font-bold leading-normal text-inherit antialiased">
                             <NavLink
-                                to="/Addproduct"
+                                to="/dashboard"
                                 className={({ isActive, isPending }) =>
                                     isPending ? "pending" : isActive ? "text-[#000000]  underline" : ""
                                 }
                             >
-                                Add Product
+                                Dashboard
                             </NavLink>
                         </li>
                         <li className="block p-1 font-sans text-lg font-bold leading-normal text-inherit antialiased">
                             <NavLink
-                                to="/mycart"
+                                to="/contact"
                                 className={({ isActive, isPending }) =>
                                     isPending ? "pending" : isActive ? "text-[#000000]  underline" : ""
                                 }
                             >
-                                My Cart
+                                Contact
                             </NavLink>
                         </li>
 
-                        {
-                            user && (<>
-                                <li className="block p-1 font-sans text-lg font-bold leading-normal text-inherit antialiased">
-                                    <NavLink
-                                        to="/profile"
-                                        className={({ isActive, isPending }) =>
-                                            isPending ? "pending" : isActive ? "text-[#FFB606] underline" : ""
-                                        }
-                                    >
-                                        Profile
-                                    </NavLink>
-                                </li>
-                                <li className="block p-1 font-sans text-lg font-bold leading-normal text-inherit antialiased">
-                                    <NavLink
-                                        to="/contactus"
-                                        className={({ isActive, isPending }) =>
-                                            isPending ? "pending" : isActive ? "text-[#FFB606] underline" : ""
-                                        }
-                                    >
-                                        About Us
-                                    </NavLink>
-                                </li>
-                            </>)
-                        }
+                        
 
                         {
                             user ? (

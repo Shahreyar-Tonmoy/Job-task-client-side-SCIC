@@ -10,6 +10,7 @@ import PrivateRoute from "../Login/PrivateRoute";
 import NewTask from "../Components/Dashboard/NewTasks";
 import PreviousTasks from "../Components/Dashboard/previousTasks";
 import DashboardHome from "../Components/Dashboard/DashboardHome";
+import Contacet from "../Components/Contact/Contacet";
 
 
 
@@ -31,6 +32,10 @@ const Routes = createBrowserRouter([
             {
                 path: "/register",
                 element: <Register></Register>
+            },
+            {
+                path: "/contact",
+                element: <Contacet></Contacet>
             },
 
         ]
